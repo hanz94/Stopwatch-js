@@ -1,0 +1,38 @@
+/* Chrome, Safari, Edge, Opera  - hide input number arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox - hide input number arrows */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container {
+  max-width: 550px;
+}
+
+.container, .container > * {
+  margin: 15px;
+}
+
+.btn-container > button {
+  margin: 2px;
+}
+
+.table-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid;
+  padding: 5px;
+}

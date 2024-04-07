@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch-input-box">
+            Wartość początkowa stopera (w sekundach):
+            <input type="number" id="stopwatch-input-value" autocomplete="off">
+        </div>
+        <div class="btn-container">
+            <button id="btn-stopwatch-start">Rozpocznij</button>
+            <button id="btn-stopwatch-end">Zakończ</button>
+            <button id="btn-stopwatch-pause">Pauza</button>
+            <button id="btn-stopwatch-continue">Kontynuuj</button>
+            <button id="btn-stopwatch-clear">Wyczyść</button>
+        </div>
+        <div class="counter-box">
+            Stoper: <span id="counter"></span>
+        </div>
+        <button id="btn-stopwatch-save">Zapisz czas</button>
+        <div class="table-container">
+            <table id="stopwatch-table">
+                <tr>
+                    <td colspan="3">Zapisane pozycje:</td>
+                </tr>
+                <tr>
+                    <th>Lp.</th>
+                    <th>Czas</th>
+                    <th>Akcja</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
